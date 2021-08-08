@@ -10,23 +10,23 @@ import kuis26 from '../assets/kuis/kuis26.png'
 import kuis27 from '../assets/kuis/kuis27.jpg'
 
 const italic = [
-    'Anthoceropsida',
-    'Bryophyta',
-    'Bryopsida',
-    'Bryum',
-    'bukan',
-    'Campylopus',
-    'Dicranum',
-    'Dyopsida',
-    'Fissidens',
-    'Hepaticopsida',
-    'Monopsida',
-    'Polytrichum',
-    'Pteridophyta',
-    'Rhidobryum',
-    'Rhodobryum',
-    'Rhodobyrum',
-    'Marchantia',
+    '<i>Anthoceropsida</i>',
+    '<i>Bryophyta</i>',
+    '<i>Bryopsida</i>',
+    '<i>Bryum</i>',
+    '<i>bukan</i>',
+    '<i>Campylopus</i>',
+    '<i>Dicranum</i>',
+    '<i>Dyopsida</i>',
+    '<i>Fissidens</i>',
+    '<i>Hepaticopsida</i>',
+    '<i>Monopsida</i>',
+    '<i>Polytrichum</i>',
+    '<i>Pteridophyta</i>',
+    '<i>Rhidobryum</i>',
+    '<i>Rhodobryum</i>',
+    '<i>Rhodobyrum</i>',
+    '<i>Marchantia</i>',
 ]
 
 const a = 0
@@ -39,7 +39,7 @@ const kuis = {
         {
             soal: { 
                 gambar: kuis1, 
-                teks: 'Karakteristik Bryophyta ditunjukkan oleh huruf …',
+                teks: 'Karakteristik <i>Bryophyta</i> ditunjukkan oleh huruf …',
             },
             pilihans: ['A', 'B', 'C', 'D'],
             jawaban: a,
@@ -47,23 +47,23 @@ const kuis = {
         {
             soal: {
                 gambar: null, 
-                teks: 'Bryophyta terdiri dari 3 kelas, yaitu :',
+                teks: '<i>Bryophyta</i> terdiri dari 3 kelas, yaitu :',
             },
-            pilihans: ['Hepaticopsida, Anthoceropsida, Bryopsida', 'Hepaticopsida, Pteridophyta, Anthoceropsida', 'Anthoceropsida, Monopsida, Bryopsida', 'Dyopsida, Hepaticopsida, Bryopsida'],
+            pilihans: ['<i>Hepaticopsida</i>, <i>Anthoceropsida</i>, <i><i>Bryopsida</i></i>', '<i>Hepaticopsida</i>, <i>Pteridophyta</i>, <i>Anthoceropsida</i>', '<i>Anthoceropsida</i>, <i>Monopsida</i>, <i>Bryopsida</i>', '<i>Dyopsida</i>, <i>Hepaticopsida</i>, <i>Bryopsida</i>'],
             jawaban: a,
         },
         {
             soal: {
                 gambar: null, 
-                teks: 'Yang merupakan kelompok Bryophyta yang memiliki struktur mirip dengan tumbuhan adalah …',
+                teks: 'Yang merupakan kelompok <i>Bryophyta</i> yang memiliki struktur mirip dengan tumbuhan adalah …',
             },
-            pilihans: ['Bryopsida', 'Hepaticopsida', 'Bryophyta', 'Anthoceropsida'],
+            pilihans: ['<i>Bryopsida</i>', '<i>Hepaticopsida</i>', '<i>Bryophyta</i>', '<i>Anthoceropsida</i>'],
             jawaban: a,
         },
         {
             soal: {
                 gambar: null, 
-                teks: 'Reproduksi jantan pada Bryophyta disebut … dan memproduksi … yang menjadi gamet.',
+                teks: 'Reproduksi jantan pada <i>Bryophyta</i> disebut … dan memproduksi … yang menjadi gamet.',
             },
             pilihans: ['Antheridium, spermatozoid', 'Antheridium, ovum', 'Arkegonium, spora', 'Arkegonium, spermatozoid'],
             jawaban: a,
@@ -87,7 +87,7 @@ const kuis = {
         {
             soal: {
                 gambar: null, 
-                teks: 'Bryophyta  dapat dianggap sebagai tumbuhan karena memiliki beberapa ciri yang sama. Namun perbedaan utamanya adalah …',
+                teks: '<i>Bryophyta</i>  dapat dianggap sebagai tumbuhan karena memiliki beberapa ciri yang sama. Namun perbedaan utamanya adalah …',
             },
             pilihans: ['Lumut mempunyai proses fotosintesis yang sederhana', 'Lumut mempunyai struktur yang sederhana', 'Lumut tidak mempunyai jaringan pembuluh', 'Lumut bisa menyerap dan mineral secara langsung'],
             jawaban: c,
@@ -99,7 +99,7 @@ const kuis = {
                 gambar: kuis8, 
                 teks: 'Gambar lumut diatas merupakan genus …',
             },
-            pilihans: ['Bryum', 'Rhodobyrum', 'Dicranum', 'Polytrichum'],
+            pilihans: ['<i>Bryum</i>', '<i>Rhodobyrum</i>', '<i>Dicranum</i>', '<i>Polytrichum</i>'],
             jawaban: b,
         },
         {
@@ -115,7 +115,7 @@ const kuis = {
                 gambar: null, 
                 teks: 'Sore itu Dodi bermain di belakang rumah dan menemukan lumut dibawah pohon. Lumut itu memiliki ciri-ciri tangkai daun tidak bercabang, tingginya paling tinggi 5cm, daun tersusun dalam roset 18-55 helai dan mempunyai daun melebar di bagian tengah, kemudian mengerucut di bagian ujung. Lumut yang ditemukan Dodi merupakan lumut genus …',
             },
-            pilihans: ['Bryum', 'Fissidens', 'Rhidobryum', 'Polytrichum'],
+            pilihans: ['<i>Bryum</i>', '<i>Fissidens</i>', '<i>Rhidobryum</i>', '<i>Polytrichum</i>'],
             jawaban: c,
         },
         {
@@ -123,7 +123,7 @@ const kuis = {
                 gambar: null, 
                 teks: 'Lumut yang bisa digunakan sebagai obat bius adalah …',
             },
-            pilihans: ['Fissidens', 'Polytrichum', 'Bryum', 'Rhodobryum'],
+            pilihans: ['<i>Fissidens</i>', '<i>Polytrichum</i>', '<i>Bryum</i>', '<i>Rhodobryum</i>'],
             jawaban: d,
         },
         {
@@ -137,7 +137,7 @@ const kuis = {
         {
             soal: {
                 gambar: null, 
-                teks: 'Kebanyakan Bryophyta  hanya memiliki tinggi beberapa cm saja karena tidak mempunyai …',
+                teks: 'Kebanyakan <i>Bryophyta</i>  hanya memiliki tinggi beberapa cm saja karena tidak mempunyai …',
             },
             pilihans: ['Organ reproduksi', 'Jaringan pembuluh', 'Daun', 'Batang'],
             jawaban: b,
@@ -149,7 +149,7 @@ const kuis = {
                 gambar: kuis14, 
                 teks: 'Gambar lumut diatas merupakan genus …',
             },
-            pilihans: ['Bryum', 'Rhodobyrum', 'Dicranum', 'Polytrichum'],
+            pilihans: ['<i>Bryum</i>', '<i>Rhodobyrum</i>', '<i>Dicranum</i>', '<i>Polytrichum</i>'],
             jawaban: d,
         },
         {
@@ -157,13 +157,13 @@ const kuis = {
                 gambar: null, 
                 teks: 'Lumut ini termasuk dalam spesies lumut tertinggi karena dapat tumbuh 30 cm hingga 70 cm. Lumut yang dimaksud adalah …',
             },
-            pilihans: ['Bryum', 'Rhodobyrum', 'Dicranum', 'Polytrichum'],
+            pilihans: ['<i>Bryum</i>', '<i>Rhodobyrum</i>', '<i>Dicranum</i>', '<i>Polytrichum</i>'],
             jawaban: d,
         },
         {
             soal: {
                 gambar: null, 
-                teks: 'Berikut merupakan habitat dari Polytrichum, kecuali …',
+                teks: 'Berikut merupakan habitat dari <i>Polytrichum</i>, kecuali …',
             },
             pilihans: ['Pinggir sungai', 'Kayu kering', 'Lumpur', 'Batang pohon'],
             jawaban: d,
@@ -179,7 +179,7 @@ const kuis = {
         {
             soal: {
                 gambar: kuis18, 
-                teks: 'Dari beberapa pernyataan diatas, yang bukan manfaat dari Polytrichum adalah …',
+                teks: 'Dari beberapa pernyataan diatas, yang <i>bukan</i> manfaat dari <i>Polytrichum</i> adalah …',
             },
             pilihans: ['1', '2', '3', '4'],
             jawaban: c,
@@ -187,7 +187,7 @@ const kuis = {
         {
             soal: {
                 gambar: kuis19, 
-                teks: 'Dari pernyataan diatas, yang merupakan ciri dari Polytrichum adalah …',
+                teks: 'Dari pernyataan diatas, yang merupakan ciri dari <i>Polytrichum</i> adalah …',
             },
             pilihans: ['1, 2, dan 3', '1 dan 2', '2 dan 3', '4 saja'],
             jawaban: a,
@@ -195,7 +195,7 @@ const kuis = {
         {
             soal: {
                 gambar: null, 
-                teks: 'Organ reproduksi seksual Polytrichum adalah …',
+                teks: 'Organ reproduksi seksual <i>Polytrichum</i> adalah …',
             },
             pilihans: ['Androecium dan Gynoecium', 'Anteridium dan Arkegonium', 'Gemma', 'Sporangium'],
             jawaban: b,
@@ -205,7 +205,7 @@ const kuis = {
                 gambar: null, 
                 teks: 'Lumut yang mempunyai sebutan lumut haicap adalah …',
             },
-            pilihans: ['Rhodobryum', 'Fissidens', 'Dicranum', 'Polytrichum'],
+            pilihans: ['<i>Rhodobryum</i>', '<i>Fissidens</i>', '<i>Dicranum</i>', '<i>Polytrichum</i>'],
             jawaban: d,
         },
     ],
@@ -215,7 +215,7 @@ const kuis = {
                 gambar: kuis22, 
                 teks: 'Gambar lumut diatas merupakan genus …',
             },
-            pilihans: ['Bryum', 'Rhodobryum', 'Fissidens', 'Polytrichum'],
+            pilihans: ['<i>Bryum</i>', '<i>Rhodobryum</i>', '<i>Fissidens</i>', '<i>Polytrichum</i>'],
             jawaban: c,
         },
         {
@@ -223,21 +223,21 @@ const kuis = {
                 gambar: null, 
                 teks: 'Lumut yang persebarannya hampir di seluruh belahan bumi dan umumnya pada batuan lembab di area pegunungan …',
             },
-            pilihans: ['Bryum', 'Rhodobryum', 'Fissidens', 'Polytrichum'],
+            pilihans: ['<i>Bryum</i>', '<i>Rhodobryum</i>', '<i>Fissidens</i>', '<i>Polytrichum</i>'],
             jawaban: c,
         },
         {
             soal: {
                 gambar: null, 
-                teks: 'Fissidens termasuk dalam kelas …',
+                teks: '<i>Fissidens</i> termasuk dalam kelas …',
             },
-            pilihans: ['Bryopsida', 'Hepaticopsida', 'Anthoceropsida', 'Bryophyta'],
+            pilihans: ['<i>Bryopsida</i>', '<i>Hepaticopsida</i>', '<i>Anthoceropsida</i>', '<i>Bryophyta</i>'],
             jawaban: a,
         },
         {
             soal: {
                 gambar: kuis26, 
-                teks: 'Dari beberapa pernyataan diatas yang merupakan ciri dari Fissidens adalah …',
+                teks: 'Dari beberapa pernyataan diatas yang merupakan ciri dari <i>Fissidens</i> adalah …',
             },
             pilihans: ['1 dan 4', '1 dan 3', '2 saja', 'Tidak ada yang benar'],
             jawaban: b,
@@ -247,7 +247,7 @@ const kuis = {
                 gambar: kuis27, 
                 teks: 'Gambar diatas merupakan siklus hidup dari …',
             },
-            pilihans: ['Fissidens', 'Marchantia', 'Campylopus', 'Rhodobryum'],
+            pilihans: ['<i>Fissidens</i>', '<i>Marchantia</i>', '<i>Campylopus</i>', '<i>Rhodobryum</i>'],
             jawaban: a,
         },
         {

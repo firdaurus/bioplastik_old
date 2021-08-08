@@ -8,12 +8,12 @@ export default function Loading() {
             <Header />
             <div className="flex flex-col h-full w-full items-center justify-center relative">
                 <div className="flex flex-col items-center justify-center relative bottom-24">
-                    <img src={plant} /> 
+                    <img src={plant} alt="Animasi Loading" /> 
                     <span className="text-xl relative bottom-8">Loading...</span>
                 </div>
                 <div className="font-light text-gray-500 absolute bottom-4 right-4">
                     <span>Animation by&nbsp;</span>
-                    <span className="font-normal text-blue-500">Sahil Sadigov</span>
+                    <a className="font-normal text-blue-500" href="https://dribbble.com/shots/3556675-Plant" >Sahil Sadigov</a>
                 </div>
             </div>
         </div>

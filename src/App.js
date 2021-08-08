@@ -36,8 +36,6 @@ function App() {
         setData({
           genus: getGenusFromHash(hash.value) || '',
         })
-        console.log('hash',hash.value)
-        console.log('genus',getGenusFromHash(hash.value) || '')
       })
       .finally(function(){
         setBooting(false)

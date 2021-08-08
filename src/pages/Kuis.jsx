@@ -1,6 +1,6 @@
 import React from 'react'
 import Header from '../components/Header'
-import kuis, {italic} from '../data/kuis'
+import kuis from '../data/kuis'
 import { useData } from '../providers/DataProvider'
 import { useHistory } from 'react-router'
 
@@ -71,7 +71,7 @@ export default function Kuis() {
         <div className="flex flex-col gap-2">
             <Header />
             <span className="font-bold text-2xl underline text-center mt-4">KUIS</span>
-            <div className="flex flex-col px-6 text-justify">
+            <div className="flex flex-col px-6">
             {
                  kuises.map((kuis, i) => (
                         <div key={i} className="w-full py-10 px-4 border-b border-gray-300 flex flex-col items-start">
@@ -80,13 +80,13 @@ export default function Kuis() {
                             <div className="flex gap-1">
                                 <span>{i+1}.&nbsp;</span>
                                 <div className="flex  flex-col gap-1">
-                                    <span>{kuis.soal.teks}</span>
+                                    <p className="text-justify" dangerouslySetInnerHTML={{__html: kuis.soal.teks}}></p>
                                     {
                                         kuis.pilihans.map(function(pilihan, j){
                                             return <div key={j} className="flex">
                                                 {/* <p>{abjad[j]}.&nbsp;{pilihan}</p> */}
                                                 <input onChange={() => handlePilihJawaban(i,j)} type="radio" id={`${i}_${j}`} name={`soal_${i}`} value={j} className="mt-1 mr-2" />
-                                                <label htmlFor={`${i}_${j}`}>{pilihan}</label>
+                                                <label htmlFor={`${i}_${j}`} dangerouslySetInnerHTML={{__html: pilihan}}></label>
                                             </div>
                                         })
                                     }
