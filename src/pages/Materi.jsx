@@ -71,7 +71,7 @@ export default function Materi() {
                         <span className="col-start-3 col-end-4 text-center">:</span>
                         <span className="col-start-4 col-end-11">{materiGenus.taksonomi.genus}</span> */}
                     </div>
-                    <p className="mt-4" dangerouslySetInnerHTML={{__html: materiGenus.materi}} ></p>
+                    <p className="mt-4 select-none" dangerouslySetInnerHTML={{__html: materiGenus.materi}} ></p>
                 </div>
                 <div className="flex justify-end">
                     <button className="text-white mt-8 mb-8 bg-primary px-6 py-1 rounded-lg shadow-md" onClick={handleClick}>Lanjut...</button>

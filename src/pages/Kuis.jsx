@@ -71,7 +71,7 @@ export default function Kuis() {
         <div className="flex flex-col gap-2">
             <Header />
             <span className="font-bold text-2xl underline text-center mt-4">KUIS</span>
-            <div className="flex flex-col px-6">
+            <div className="flex flex-col px-6 select-none">
             {
                  kuises.map((kuis, i) => (
                         <div key={i} className="w-full py-10 px-4 border-b border-gray-300 flex flex-col items-start">

@@ -23,7 +23,7 @@ export default function KunciDeterminasi() {
     }
 
     return (
-        <div className="flex flex-col pb-4">
+        <div className="flex flex-col pb-4 select-none">
             <Header />
             <h1 className="text-center font-semibold text-2xl mt-6">Kunci Determinasi Bryophyta</h1>
             {/* <span>{genusYangDipilih}</span> */}
