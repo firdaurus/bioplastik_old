@@ -34,7 +34,7 @@ function App() {
       .then(function([hash]){
         //apply data from indexed DB to Context API
         setData({
-          genus: getGenusFromHash(hash.value) || '',
+          genus: getGenusFromHash(hash?.value) || '',
         })
       })
       .finally(function(){
